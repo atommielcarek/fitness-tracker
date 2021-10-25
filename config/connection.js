@@ -2,7 +2,7 @@ const mongoose = require ('mongoose');
 const db = async () => {
     try {
         mongoose.connect(
-            process.env.MONGOURI_DB|| 'mongodb://localhost/fitnesstracker',
+            process.env.MONGOURI_DB|| 'mongodb://localhost/fitness-tracker2',
             {
             useNewUrlParser: true,
             useFindAndModify: false,
